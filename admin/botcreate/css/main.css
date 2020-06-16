@@ -1,0 +1,15 @@
+body {
+
+  width:100%;
+  
+  margin:20px;
+  padding:0;
+}
+
+#lblImagem{
+  color: white;
+}
+
+.ItemInicial {
+ margin-left:30px;
+}

@@ -1,0 +1,77 @@
+.dropbtn {
+  margin-left:-20px;
+  background-color: #f5f5f5;
+  padding:10px;
+  width:25px;
+  height:25px;
+  border: none;
+  cursor: pointer;
+  position:absolute;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  /* background-color: #2980B9; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  cursor: context-menu;	
+  display: none;
+  /*margin-top:50px;*/
+  bottom:70px;
+  margin-left:200px;
+  position: absolute;
+  background-color: #ffffff;
+  font-size: 14px;
+  min-width: 180px;
+  height: 80px;                                  /*17/07/2019*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9999;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  
+}
+
+.dropdown-content a {
+  cursor: context-menu;
+  color: black;  
+  padding:15px 15px 5px 16px;
+  text-decoration: none;
+  display: block; 
+  z-index: 999999999999999;
+}
+
+.dropdown a:hover {
+	background-color: #E8E8FF;
+}
+
+.show {display: block;}
+
+#block_container
+{
+    display: flex;
+    justify-content: left;
+}
+
+
+#bloc1
+{
+	/* Linha do nome do operador */
+	width:300px;
+	margin-left:10px;
+    display:inline;
+	float:left;
+}
+
+#bloc2
+{
+	/* Linha da imagem dos 3 pontinhos do Menu */
+    display:inline;
+	vertical-align: middle;
+}
